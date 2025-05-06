@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import styles from './Counter.module.css';
 
-function Button() {
+function Counter() {
 
     const [value, setValue] = useState(0);
 
@@ -37,4 +37,4 @@ function Button() {
     );
 }
 
-export default Button
+export default Counter
