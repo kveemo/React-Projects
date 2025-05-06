@@ -19,7 +19,7 @@ function Counter() {
     
     return(
         <div>
-            <p>
+            <p className={styles.value}>
                 {value}
             </p>
             <div className={styles.buttonContainer}>
