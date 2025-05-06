@@ -1,11 +1,11 @@
 import React, {useState} from "react";
-
+import styles from './Counter.module.css';
 function Button() {
     return(
-        <div>
-            <button>Decrement</button>
-            <button>Reset</button>
-            <button>Increment</button>
+        <div className={styles.buttonContainer}>
+            <button className = {styles.decrementButton}>Decrement</button>
+            <button className = {styles.resetButton}>Reset</button>
+            <button className = {styles.incrementButton}>Increment</button>
         </div>
     );
 }

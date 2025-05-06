@@ -1,0 +1,40 @@
+.buttonContainer {
+    margin: auto;
+    width: 50%;
+    display: block;
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+    
+}
+
+.buttonContainer .decrementButton {
+    background-color: hsl(0, 75%, 57%);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.buttonContainer .resetButton {
+    background-color: hsl(263, 73%, 55%);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.buttonContainer .incrementButton {
+    background-color: hsl(131, 71%, 53%);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    color: white;
+    
+    
+
+}
